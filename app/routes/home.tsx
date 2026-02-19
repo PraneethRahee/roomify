@@ -40,7 +40,7 @@ export default function Home() {
             return false
         }
 
-        setProject((prev)=>[newItem,...prev])
+        setProject((prev)=>[saved,...prev])
 
         navigate(`/visualizer/${newId}`,{
             state:{
